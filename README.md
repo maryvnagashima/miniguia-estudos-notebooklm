@@ -28,7 +28,7 @@
 O tema escolhido para este caderno temático foi **Educação Financeira e Primeiros Passos em Investimentos**.
 
 Em um cenário onde o excesso de informações de "gurus financeiros" nas redes sociais gera confusão,
-este projeto foca em fontes oficiais e institucionais — transformando conteúdo técnico em decisões práticas.
+este projeto foca em fontes oficiais e institucionais, transformando conteúdo técnico em decisões práticas.
 
 **Objetivos do projeto:**
 
@@ -61,7 +61,7 @@ Foram selecionadas **4 fontes institucionais** para garantir credibilidade e pre
 
 ## 🧠 Engenharia de Prompts e "Cicatrizes"
 
-Esta seção documenta a evolução das interações com a IA — incluindo erros, ajustes e aprendizados reais.
+Esta seção documenta a evolução das interações com a IA, incluindo erros, ajustes e aprendizados reais.
 
 ### 🔹 Prompt 1 — Genérico
 
@@ -112,7 +112,7 @@ usando um exemplo com investimento em títulos públicos."
 | Mistura de conceitos fora do escopo | IA tende a extrapolar | Instruir: "use apenas as fontes fornecidas" |
 | Perda de precisão técnica | Linguagem simplificada em excesso | Solicitar exemplo prático com termos corretos |
 
-> 💡 **Insight-chave:** A IA não substitui o pensamento crítico — ela **amplifica sua qualidade**.
+> 💡 **Insight-chave:** A IA não substitui o pensamento crítico; ela **amplifica sua qualidade**.
 
 ---
 
@@ -139,8 +139,8 @@ Orçamento → Reserva de Emergência → Investimento
 | **Selic** | Taxa básica de juros da economia brasileira, definida pelo COPOM |
 | **CDI** | Taxa de referência para empréstimos entre bancos; benchmark da renda fixa |
 | **Liquidez** | Velocidade com que um investimento pode ser convertido em dinheiro disponível |
-| **CDB** | Certificado de Depósito Bancário — título emitido por bancos para captar recursos |
-| **FGC** | Fundo Garantidor de Créditos — proteção ao investidor até R$ 250 mil por instituição |
+| **CDB** | Certificado de Depósito Bancário, título emitido por bancos para captar recursos |
+| **FGC** | Fundo Garantidor de Créditos, proteção ao investidor até R$ 250 mil por instituição |
 | **Juros Compostos** | Juros calculados sobre o capital + juros já acumulados ("juros sobre juros") |
 | **Rentabilidade Real** | Retorno do investimento descontada a inflação (IPCA) |
 | **Risco Soberano** | Garantia oferecida pelo próprio Governo Federal (ex: Tesouro Direto) |
@@ -191,7 +191,7 @@ segurança e liquidez."
 - Resultado depende da qualidade e atualização das fontes fornecidas
 - Não substitui orientação de um profissional certificado (CFP)
 
-> 🚀 **Insight estratégico:** A IA não substitui a decisão financeira —
+> 🚀 **Insight estratégico:** A IA não substitui a decisão financeira,
 > ela melhora a qualidade do raciocínio ao organizar informações complexas de forma estruturada.
 
 ---
