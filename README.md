@@ -84,7 +84,7 @@ Esta seção documenta a evolução das interações com a IA — incluindo erro
 Poupança e Tesouro Selic considerando liquidez e segurança."
 ```
 
-**Resultado:** Resposta precisas, com referência às fontes carregadas.
+**Resultado:** Resposta precisa, com referência às fontes carregadas.
 
 **Aprendizado:**
 - ✔ Delimitar as fontes aumenta significativamente a qualidade da resposta
@@ -198,7 +198,7 @@ segurança e liquidez."
 
 ## 🔁 Prompts Reutilizáveis para Revisão
 
-```
+```markdown
 1. "Explique [conceito] com base apenas nas fontes fornecidas."
 2. "Compare [A] vs [B] em formato de tabela, considerando [critério]."
 3. "Liste os 3 principais riscos e vantagens de [investimento]."
@@ -237,14 +237,3 @@ segurança e liquidez."
 ---
 
 *Feito com 💜 como parte do ecossistema de aprendizagem da [DIO](https://www.dio.me)*
-
-***
-LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/marinanagashina/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/maryvnagashima/)
-
----
-
-*Feito com 💜 como parte do ecossistema de aprendizagem da [DIO](https://www.dio.me)*
-```
-
-***
