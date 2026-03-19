@@ -1,79 +1,250 @@
-# Mini Guia de Estudo: Educação Financeira e Primeiros Passos em Investimentos 💰📈
 
-Este repositório foi desenvolvido como parte de um desafio prático da **DIO (Digital Innovation One)**, utilizando o **NotebookLM** da Google como ferramenta de aprendizagem ativa. O objetivo é consolidar conhecimentos sobre finanças pessoais e mercado de capitais a partir de fontes oficiais e técnicas de engenharia de prompts.
+![DIO](https://img.shields.io/badge/DIO-Desafio%20Projeto-blueviolet?style=for-the-badge)
+![NotebookLM](https://img.shields.io/badge/Google-NotebookLM-4285F4?style=for-the-badge&logo=google)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
+![Tema](https://img.shields.io/badge/Tema-Educação%20Financeira-gold?style=for-the-badge)
+
+# 💰 Mini Guia de Estudo: Educação Financeira e Primeiros Passos em Investimentos
+
+> Projeto prático desenvolvido para o desafio da [DIO (Digital Innovation One)](https://www.dio.me),
+> utilizando o **Google NotebookLM** como ferramenta de aprendizagem ativa com IA.
+
+---
+
+## 📋 Sumário
+
+- [Contexto e Objetivos](#-contexto-e-objetivos)
+- [Curadoria de Fontes](#-curadoria-de-fontes)
+- [Engenharia de Prompts e Cicatrizes](#-engenharia-de-prompts-e-cicatrizes)
+- [Miniguia de Estudo](#-miniguia-de-estudo)
+- [Aplicação Prática com IA](#-aplicação-prática-tomada-de-decisão-com-ia)
+- [Prompts Reutilizáveis](#-prompts-reutilizáveis)
+- [Aprendizados e Próximos Passos](#-aprendizados-e-próximos-passos)
 
 ---
 
 ## 🎯 Contexto e Objetivos
 
-O tema escolhido para este caderno temático foi a **Educação Financeira e Primeiros Passos em Investimentos**. 
-Muitas vezes, o excesso de informações em redes sociais e blogs de "gurus" financeiros gera confusão. Por isso, este projeto foca em:
-1.  **Fundamentação**: Entender os conceitos básicos de orçamento e poupança.
-2.  **Segurança**: Identificar fontes de investimento seguras (Renda Fixa e Tesouro Direto).
-3.  **Domínio de IA**: Aprender a utilizar o NotebookLM para realizar curadoria e síntese de documentos técnicos de forma eficiente.
+O tema escolhido para este caderno temático foi **Educação Financeira e Primeiros Passos em Investimentos**.
+
+Em um cenário onde o excesso de informações de "gurus financeiros" nas redes sociais gera confusão,
+este projeto foca em fontes oficiais e institucionais — transformando conteúdo técnico em decisões práticas.
+
+**Objetivos do projeto:**
+
+| # | Objetivo |
+|---|----------|
+| 📊 | Consolidar fundamentos de finanças pessoais com base em fontes confiáveis |
+| 🛡️ | Compreender opções de investimento seguras para iniciantes |
+| 🤖 | Utilizar o NotebookLM como ferramenta de curadoria e síntese de conhecimento |
+| 🧠 | Demonstrar como a IA pode apoiar a tomada de decisão baseada em dados |
 
 ---
 
 ## 📚 Curadoria de Fontes
 
-Para alimentar o NotebookLM, utilizei as seguintes fontes abertas e oficiais, garantindo a credibilidade do material estudado:
+Foram selecionadas **4 fontes institucionais** para garantir credibilidade e precisão técnica:
 
-1.  **Banco Central do Brasil (BCB)**: [Caderno de Gestão de Finanças Pessoais](https://www.bcb.gov.br/content/publicacoes/Documents_Educa_Financeira/caderno_educacao_financeira_gestao_financas_pessoais.pdf)
-    *   Foco: Orçamento familiar, crédito e prevenção de dívidas.
-2.  **CVM (Comissão de Valores Mobiliários)**: [Portal do Investidor - Série Educação Financeira](https://www.investidor.gov.br/portal_investidor/export/sites/portal_investidor/menu/Introducao/Publicacoes/Livro_TOP_Mercado_de_Capitais.pdf)
-    *   Foco: Introdução ao Mercado de Capitais e direitos dos investidores.
-3.  **Tesouro Direto**: [Guia Prático para Investir no Tesouro Direto](https://www.tesourodireto.com.br/data/files/EE/83/8C/61/89087610AD90D676894D4EA8/Guia%20Pratico%20do%20Tesouro%20Direto.pdf)
-    *   Foco: Tipos de títulos públicos e rentabilidade.
-4.  **Idec (Instituto de Defesa do Consumidor)**: [Guia de Educação Financeira](https://idec.org.br/sites/default/files/guia_educacao_financeira_idec.pdf)
-    *   Foco: Direitos do consumidor em serviços financeiros.
+| Fonte | Descrição | Link |
+|-------|-----------|------|
+| 🏦 Banco Central do Brasil | Educação financeira, orçamento familiar e prevenção de dívidas | [bcb.gov.br](https://www.bcb.gov.br/cidadaniafinanceira) |
+| 📈 CVM – Portal do Investidor | Introdução ao mercado de capitais e direitos do investidor | [investidor.gov.br](https://www.investidor.gov.br) |
+| 💵 Tesouro Direto | Guia prático sobre títulos públicos e rentabilidade | [tesouro.fazenda.gov.br](https://www.tesouro.fazenda.gov.br/tesouro-direto) |
+| 🛒 IDEC | Direitos do consumidor em serviços financeiros | [idec.org.br](https://idec.org.br) |
 
----
-
-## 🧠 Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
-
-Nesta seção, documento o processo de interação com a IA para extrair o melhor conhecimento das fontes.
-
-### Prompts Estratégicos Testados
-
-*   **Variação 1 (Simples)**: "Quais são os principais investimentos para quem está começando?"
-    *   *Resultado*: A IA deu uma resposta genérica (Poupança, CDB, Tesouro).
-*   **Variação 2 (Contextualizada)**: "Com base no Caderno do BCB e no Guia do Tesouro Direto, crie uma comparação entre a Caderneta de Poupança e o Tesouro Selic, focando em liquidez e segurança."
-    *   *Resultado*: Resposta muito mais precisa, citando que o Tesouro Selic é garantido pelo Estado Brasileiro, enquanto a poupança pelo FGC até certo limite.
-*   **Variação 3 (Educativa)**: "Explique o conceito de Juros Compostos como se eu fosse um adolescente de 15 anos, usando um exemplo prático de investimento em títulos públicos."
-
-### Cicatrizes (Desafios Encontrados)
-*   **Dificuldade**: A IA às vezes misturava conceitos de investimentos de alto risco que não estavam nas fontes.
-*   **Solução (Refinamento)**: Utilizei o "Anotações do Notebook" para fixar que a resposta deveria ser baseada *estritamente* nos PDFs enviados.
-*   **Lição**: Quanto mais delimitado o contexto (ex: "Cite a página X" ou "Use apenas a fonte do BCB"), melhor é a precisão técnica.
+**Critérios de seleção:**
+- ✔ Credibilidade institucional (órgãos governamentais e de defesa do consumidor)
+- ✔ Conteúdo técnico com linguagem acessível para iniciantes
+- ✔ Disponibilidade gratuita e aberta
 
 ---
 
-## 📖 Miniguia de Estudo (Consolidado)
+## 🧠 Engenharia de Prompts e "Cicatrizes"
 
-### 1. Resumo Estruturado
-*   **Orçamento**: Antes de investir, é necessário organizar o fluxo de caixa. O BCB sugere a regra do "Pague-se Primeiro".
-*   **Fundo de Reserva**: Deve cobrir de 3 a 6 meses de despesas fixas e ser alocado em investimentos de alta liquidez.
-*   **Títulos Públicos**: São empréstimos ao Governo Federal. O Tesouro Selic é o mais conservador.
+Esta seção documenta a evolução das interações com a IA — incluindo erros, ajustes e aprendizados reais.
 
-### 2. Glossário de Conceitos
-*   **Selic**: Taxa básica de juros da economia brasileira.
-*   **Liquidez**: A velocidade com que você transforma um investimento em dinheiro na conta.
-*   **CDB (Certificado de Depósito Bancário)**: Título emitido pelos bancos para captar recursos.
-*   **FGC (Fundo Garantidor de Crédito)**: Proteção para o investidor em caso de falência da instituição financeira (limite de R$ 250 mil).
+### 🔹 Prompt 1 — Genérico
 
-### 3. Prompts Reutilizáveis para Revisão
-*   *"Analise este documento e me diga quais são os 3 riscos principais mencionados sobre [TEMA]."*
-*   *"Crie 5 perguntas de múltipla escolha para testar meu conhecimento sobre o Guia do Tesouro Direto."*
-*   *"Resuma a diferença entre CDB e Tesouro Direto em uma tabela comparativa."*
+**Input:**
+```
+"Quais são os principais investimentos para iniciantes?"
+```
+
+**Resultado:** Resposta superficial (Poupança, CDB, Tesouro Direto sem aprofundamento).
+
+**Problema identificado:** Ausência de contexto → IA generalizou sem basear-se nas fontes.
 
 ---
 
-## 🚀 Como Entregar na Plataforma DIO
+### 🔹 Prompt 2 — Contextualizado
 
-1.  Crie um novo repositório no seu GitHub (ex: `miniguia-estudos-notebooklm`).
-2.  Copie este conteúdo para o seu `README.md`.
-3.  Suba os arquivos.
-4.  Submeta a URL do repositório no desafio da plataforma DIO!
+**Input:**
+```
+"Com base nos materiais do Banco Central e Tesouro Direto, compare
+Poupança e Tesouro Selic considerando liquidez e segurança."
+```
+
+**Resultado:** Resposta precisas, com referência às fontes carregadas.
+
+**Aprendizado:**
+- ✔ Delimitar as fontes aumenta significativamente a qualidade da resposta
+- ✔ Reduz o risco de alucinação da IA
 
 ---
-Feito com ❤️ por Marina Vieira Nagashima
+
+### 🔹 Prompt 3 — Didático
+
+**Input:**
+```
+"Explique juros compostos como se eu fosse um adolescente de 15 anos,
+usando um exemplo com investimento em títulos públicos."
+```
+
+**Resultado:** Boa simplificação, com cuidado para manter precisão técnica ao especificar o contexto.
+
+---
+
+### ⚠️ Principais Cicatrizes (Lições Aprendidas)
+
+| Problema | Causa | Solução Aplicada |
+|----------|-------|------------------|
+| Respostas genéricas | Prompt sem contexto delimitado | Especificar fontes e recorte temático |
+| Mistura de conceitos fora do escopo | IA tende a extrapolar | Instruir: "use apenas as fontes fornecidas" |
+| Perda de precisão técnica | Linguagem simplificada em excesso | Solicitar exemplo prático com termos corretos |
+
+> 💡 **Insight-chave:** A IA não substitui o pensamento crítico — ela **amplifica sua qualidade**.
+
+---
+
+## 📖 Miniguia de Estudo
+
+### 📌 1. Fundamentos — Por Onde Começar
+
+```
+Orçamento → Reserva de Emergência → Investimento
+```
+
+| Etapa | Descrição |
+|-------|-----------|
+| 💼 Orçamento | Controle de receitas e despesas mensais |
+| 🛡️ Reserva de Emergência | 3 a 6 meses de custos fixos em ativos de alta liquidez |
+| 📈 Investimento | Iniciar após estabilidade financeira conquistada |
+
+---
+
+### 📌 2. Glossário de Conceitos Essenciais
+
+| Termo | Definição |
+|-------|-----------|
+| **Selic** | Taxa básica de juros da economia brasileira, definida pelo COPOM |
+| **CDI** | Taxa de referência para empréstimos entre bancos; benchmark da renda fixa |
+| **Liquidez** | Velocidade com que um investimento pode ser convertido em dinheiro disponível |
+| **CDB** | Certificado de Depósito Bancário — título emitido por bancos para captar recursos |
+| **FGC** | Fundo Garantidor de Créditos — proteção ao investidor até R$ 250 mil por instituição |
+| **Juros Compostos** | Juros calculados sobre o capital + juros já acumulados ("juros sobre juros") |
+| **Rentabilidade Real** | Retorno do investimento descontada a inflação (IPCA) |
+| **Risco Soberano** | Garantia oferecida pelo próprio Governo Federal (ex: Tesouro Direto) |
+
+---
+
+### 📌 3. Comparativo de Investimentos para Iniciantes
+
+| Produto | Risco | Liquidez | Garantia | Rentabilidade Aprox. |
+|---------|-------|----------|----------|----------------------|
+| Poupança | Baixo | Alta | FGC (R$ 250k) | ~70% da Selic |
+| Tesouro Selic | Muito baixo | Alta | Governo Federal | ~100% da Selic |
+| CDB (grandes bancos) | Baixo | Variável | FGC (R$ 250k) | 100–110% do CDI |
+
+---
+
+## 🤖 Aplicação Prática: Tomada de Decisão com IA
+
+### 📊 Cenário
+
+> Investidor iniciante com **R$ 5.000** busca: segurança, liquidez e baixo risco.
+
+**Prompt utilizado no NotebookLM:**
+```
+"Com base nos materiais do Banco Central e Tesouro Direto, compare
+Poupança e Tesouro Selic para um investidor iniciante que prioriza
+segurança e liquidez."
+```
+
+### 📌 Análise Gerada
+
+| Critério | Poupança | Tesouro Selic |
+|----------|----------|---------------|
+| Liquidez | Alta | Alta |
+| Rentabilidade | ~70% Selic | ~100% Selic |
+| Garantia | FGC | Governo Federal |
+| Ideal para reserva de emergência | ✔ | ✔✔ |
+
+### ⚙️ Decisão Recomendada: **Tesouro Selic**
+
+**Justificativa:**
+- Melhor eficiência financeira no longo prazo
+- Segurança garantida pelo Governo Federal (risco soberano)
+- Ideal para compor reserva de emergência com rendimento superior à poupança
+
+**⚠️ Limitações da análise via IA:**
+- Não considera perfil comportamental do investidor
+- Resultado depende da qualidade e atualização das fontes fornecidas
+- Não substitui orientação de um profissional certificado (CFP)
+
+> 🚀 **Insight estratégico:** A IA não substitui a decisão financeira —
+> ela melhora a qualidade do raciocínio ao organizar informações complexas de forma estruturada.
+
+---
+
+## 🔁 Prompts Reutilizáveis para Revisão
+
+```
+1. "Explique [conceito] com base apenas nas fontes fornecidas."
+2. "Compare [A] vs [B] em formato de tabela, considerando [critério]."
+3. "Liste os 3 principais riscos e vantagens de [investimento]."
+4. "Crie 5 perguntas de múltipla escolha para testar meu entendimento sobre [tema]."
+5. "Resuma este documento em tópicos objetivos, do mais ao menos relevante."
+6. "Analise [documento] e identifique os conceitos que um iniciante precisa dominar primeiro."
+```
+
+---
+
+## 🌱 Aprendizados e Próximos Passos
+
+### O que aprendi
+
+- Prompts genéricos geram respostas genéricas — **contexto é tudo**
+- A IA é mais útil como ferramenta de **estruturação do que de resposta pronta**
+- Delimitar fontes no NotebookLM reduz alucinações e aumenta a confiabilidade
+- Documentar erros e ajustes é tão valioso quanto o resultado final
+
+### Próximos Passos
+
+- [ ] Aplicar a mesma metodologia para análise de dados em marketing digital
+- [ ] Integrar IA com dados reais (GA4 / BigQuery) para insights automatizados
+- [ ] Explorar automação de relatórios financeiros com Python + IA
+- [ ] Criar caderno temático sobre **Data Engineering com NotebookLM**
+
+---
+
+## 👩‍💻 Autora
+
+**Marina Vieira Nagashima**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/marinanagashina/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/maryvnagashima/)
+
+---
+
+*Feito com 💜 como parte do ecossistema de aprendizagem da [DIO](https://www.dio.me)*
+
+***
+LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/marinanagashina/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/maryvnagashima/)
+
+---
+
+*Feito com 💜 como parte do ecossistema de aprendizagem da [DIO](https://www.dio.me)*
+```
+
+***
