@@ -104,7 +104,7 @@ usando um exemplo com investimento em títulos públicos."
 
 ---
 
-### ⚠️ Principais Cicatrizes (Lições Aprendidas)
+### ⚠️ Principais Lições Aprendidas
 
 | Problema | Causa | Solução Aplicada |
 |----------|-------|------------------|
